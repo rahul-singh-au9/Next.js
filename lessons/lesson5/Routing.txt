@@ -1,0 +1,8 @@
+Routing----> 
+File-system routing mechanism.
+when a file is added to the pages folder in the project, it is automatically available as a route.
+
+inside of pages folder
+ pages ---> index.js (home page)
+      --->  about.js (about page)
+      --->  other.js (other page)
