@@ -1,0 +1,7 @@
+📁product 
+    |
+    --> [productId].js (this will be our dynamic page)
+    --> index.js (home page on /product)
+    --> sweater.js
+
+⭐ if we have same productId let's say product/sweater and we have same page sweater.js then sweater.js will be displayed.
