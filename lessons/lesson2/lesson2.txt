@@ -1,0 +1,6 @@
+1 --> Download and Install Node.js
+2 --> Download and Install VsCode
+3 --> npx create-next-app my-app
+4 --> cd my-app
+5 --> npm run dev
+6 --> edit index.js inside of pages dir.
