@@ -1,0 +1,9 @@
+NestedRoutes -->
+to create a route
+📁pages
+  |
+  -->📁blog
+        |
+        --> index.js (baseUrl/blog)
+        --> first.js (baseUrl/blog/first)
+        --> second.js (baseUrl/blog/second)
