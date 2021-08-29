@@ -1,0 +1,10 @@
+📁product 
+    |
+    --> [productId].js (this will be our dynamic page)
+    --> index.js (home page on /product)
+    --> sweater.js
+    --> 📁review (baseUrl/product/{productId}/review)
+        |
+         --> [reviewId].js 
+              (this will be our dynamic page for the review of the product) (baseUrl/product/{productId}/review/{reviewId})
+         --> index.js (home page of review)
