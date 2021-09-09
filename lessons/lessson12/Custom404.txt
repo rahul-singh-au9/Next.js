@@ -1,0 +1,5 @@
+just define a 404.js file in the root folder inside pages   
+
+📁pages 
+    |
+    --> 404.js

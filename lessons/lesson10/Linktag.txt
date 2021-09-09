@@ -1,0 +1,11 @@
+import Link from "next/link";
+
+---->  
+    <Link href='/'>
+      <a>home</a>
+    </Link>
+
+----> 
+    <Link href=`product/{productId}`>
+      <a>product detail about {productId}</a>
+    </Link>

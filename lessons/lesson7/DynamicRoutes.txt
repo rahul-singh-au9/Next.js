@@ -1,6 +1,6 @@
 📁product 
     |
-    --> [productId].js (this will be our dynamic page)
+    --> [productId].js (this will be our dynamic page) --> (baseUrl/product/{productId})
     --> index.js (home page on /product)
     --> sweater.js
 
