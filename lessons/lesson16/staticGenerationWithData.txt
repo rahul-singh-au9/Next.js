@@ -1,0 +1,3 @@
+**** static generation with getStaticProps **** 
+
+In Next.js when you export a page component, you can also export an async function called "getStaticProps", if you do export that function, It will run at build time in production and inside the function you can fetch external data and send it as props to the page.

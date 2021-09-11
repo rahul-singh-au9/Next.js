@@ -1,0 +1,50 @@
+PreRendering-----> 
+* Pre-render just means render in advance of sending it to the browser.
+
+* Pre-rendering is done by default in a Next JS app.
+
+compare the page souce or html which is served to the browser by both these app--->
+
+React-app ===> 
+* start react app 
+* inspect the element 
+* right click and view page source code 
+* here we only see a div tag with id equal to root, other elements are nowhere to found. 
+* so the html page send from the server is sort of empty and doesn't contain any data or content that we see on the browser. 
+
+
+Next-app ===> 
+* start the next app 
+* view page source code 
+* here we see all the elements 
+
+=== this right here is the difference between traditional react app and next-app 
+
+
+
+
+*********** Pre-rendering ****************
+
+React vs Next js
+- By default, Next JS pre-renders every page in the application.
+
+
+what does pre-render mean?
+Next JS generates HTML for every page in advance instead of having it all done by client-side-Javascript
+
+
+Why pre-render?
+* pre-rendering improves performance
+  |
+  ---> In a react app, you need to wait for the Javascript to be executed.
+  ---> Perhaps fetch data from the server and render the UI.
+  ---> There is a wait time for the user.
+  ---> With a pre-rendered page, the HTML is already generated and loads faster.
+
+
+* Pre-rendering helps with SEO
+  |
+  ---> if you are building a blog or e-commerce site, SEO is concern.
+  ---> With a React app, if the search engine hits your page, it only sees a div tag with id equal to root.
+  ---> if search engine hits a pre-rendered page though, all the content is preset in the source code which will help index that page.
+  ---> if SEO is of concern for your app, pre-rendering is what you want.

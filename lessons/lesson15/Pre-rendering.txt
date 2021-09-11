@@ -1,0 +1,9 @@
+Pre-rendering in Next.js 
+    |
+     ===>Next.js supports two form of pre-rendering 
+
+1. static generation
+2. Server side Rendering
+
+
+**** Next.js, by default, without any configuration, statically generates every page in our application when we build it for production. This allows the page to be cached by a CDN and indexed by a serach engine. ****
