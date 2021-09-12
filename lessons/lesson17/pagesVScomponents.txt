@@ -1,0 +1,6 @@
+***** pages vs components *****
+
+if you want to expose some UI as a route in the application, "create it as a page".
+
+if you are simply looking to adhere to the component based architecture and organise your JSX, "go with components"
+components dont need special features, that Next.js provides for pages in a Next.js application
